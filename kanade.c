@@ -227,7 +227,7 @@ VocalizeData consonant[]=
 //---------------------------------------------------------
 
 // 擬似的なノイズ出力
-inline double GaussNoise()
+double GaussNoise()
 {
 	return ((double)rand() / (double)(RAND_MAX) - 0.5);
 }
